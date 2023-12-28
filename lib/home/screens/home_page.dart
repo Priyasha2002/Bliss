@@ -1,5 +1,6 @@
 import 'package:bliss_app/home/bloc/home_bloc.dart';
-import 'package:bliss_app/home/screens/catagory_page.dart';
+import 'package:bliss_app/home/screens/doctor_catagories.dart';
+import 'package:bliss_app/home/screens/catagory.dart';
 import 'package:bliss_app/home/widgets/bottom_nav_bar.dart';
 import 'package:bliss_app/home/widgets/chat.dart';
 import 'package:bliss_app/home/widgets/date.dart';
@@ -231,6 +232,7 @@ class _HomeBody extends StatelessWidget {
                           shape: const RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(8.0))),
                           child: InkWell(
                             onTap: () {
+                              Navigator.push(context, MaterialPageRoute(builder:(context)=>const DoctorCategoryPage()));
 
                             }, // Image tapped
                             splashColor: Colors.white10,

@@ -37,6 +37,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   dialog_flowtter: ^0.3.3
+  velocity_x: ^4.1.2
 
 dev_dependencies:
   flutter_test:
@@ -68,6 +69,7 @@ flutter:
     - assets/dialog_flow_auth.json
     - assets/images/emotion_detect.png
     - assets/images/doctor.png
+    - assets/images/doctor1.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
